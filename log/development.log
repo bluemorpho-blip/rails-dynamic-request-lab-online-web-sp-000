@@ -915,3 +915,4 @@ app/views/students/index.html.erb:2:in `_app_views_students_index_html_erb___276
   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
   [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Morty"], ["last_name", "Smith"], ["created_at", "2019-12-25 02:05:46.616097"], ["updated_at", "2019-12-25 02:05:46.616097"]]
   [1m[35m (8.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mStudent Load (1.6ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
